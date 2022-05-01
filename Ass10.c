@@ -1,14 +1,15 @@
 #include <stdio.h>
 int main(){
  
-    int side;
+    int radius;
     
-    int ans;
+    float ans;
 
-    scanf("%d", &side);
+    scanf("%d", &radius);
     
-    ans= (side)*(side);
 
-    printf("%d", ans);
+    ans= (3.14)*(radius)*(radius);
+
+    printf("%f", ans);
 return 0;
 }

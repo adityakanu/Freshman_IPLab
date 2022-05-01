@@ -1,18 +1,21 @@
 #include <stdio.h>
+
+
 int main(){
  
     int a;
     int b;
 
-    int temp;
-
 
     scanf("%d", &a);
     scanf("%d", &b);
 
-    temp=a;
-    a=b;
-    b=temp;
+    
+    a = a - b;
+
+    b = a + b;
+
+    a = b - a; 
 
     printf("%d", a);
     printf("\n");

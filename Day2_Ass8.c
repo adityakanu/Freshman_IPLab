@@ -8,7 +8,7 @@ int main(){
     scanf("%d", &height);
     scanf("%d", &base);
 
-    ans= (base*height)/2;
+    ans= 0.5*(base*height);
 
     printf("%d", ans);
 return 0;

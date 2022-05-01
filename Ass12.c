@@ -4,11 +4,11 @@ int main(){
     int basicSalary;
     scanf("%d", basicSalary);
 
-    int grossSalary;
+    double grossSalary;
 
-    grossSalary= basicSalary + (basicSalary*0.24);
+    grossSalary= basicSalary + (basicSalary*0.12) + (basicSalary*0.07) + (basicSalary*0.05);
 
-    printf("%d", grossSalary);
+    printf("%lf", grossSalary);
     
  
 return 0;
